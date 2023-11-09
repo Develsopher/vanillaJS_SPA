@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: lightgrey;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100px;
+  background: black;
+}
+
+.nav__link {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.nav__link.active {
+  color: blue;
+}
+
+a {
+  color: #009579;
+}
+
+#app {
+  padding: 20px 40px;
+}
+
+.post a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
